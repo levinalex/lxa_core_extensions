@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = LxaCoreExtensions::VERSION
   gem.authors       = ["Levin Alexander"]
   gem.email         = ["mail@levinalex.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "simple core extensions"
+  gem.summary       = "simple utility methods like Hash#compact and Enumerable#build_hash"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
