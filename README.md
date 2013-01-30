@@ -1,5 +1,9 @@
 # LxaCoreExtensions
 
+
+[![Build Status](https://travis-ci.org/levinalex/lxa_core_extensions.png)](https://travis-ci.org/levinalex/lxa_core_extensions)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/levinalex/lxa_core_extensions)
+
 simple core extensions for ruby:
 
 ### Constants
