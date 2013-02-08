@@ -15,4 +15,9 @@ describe "Array#only" do
     assert_equal(12, [12].only)
   end
 
+  it "should return a random element" do
+    arr = [:a,:b,:c,:d]
+    assert_includes arr, arr.random_element
+  end
+
 end
