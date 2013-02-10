@@ -5,7 +5,6 @@ class Array
   end
 
   def random_element
-    idx = rand(self.length)
-    self[idx]
+    sample
   end
 end
