@@ -19,3 +19,11 @@ describe "Enumerable#build_hash" do
   end
 end
 
+describe "Enumerable#tally" do
+  it "should count items" do
+    assert_equal([[4,4], [3,"3"], [1,"one"]],
+                 [4,4,4,4,"3","3","3","one"].tally)
+
+  end
+end
+

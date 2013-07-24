@@ -34,4 +34,8 @@ module Enumerable
       end
     end
   end
+
+  def tally
+    group_by { |x| x }.map { |k,v| [v.length, k] }
+  end
 end
