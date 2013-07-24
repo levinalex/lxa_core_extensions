@@ -5,7 +5,7 @@ describe "Enumerable#build_hash" do
     assert_equal({1=>2, 3=>4, 5=>6},
                  [[1,2],[3,4],[5,6]].build_hash)
 
-    assert_equal( {2=>[1,2], 4=>[3,4],6=>[5,6]},
+    assert_equal({2=>[1,2], 4=>[3,4],6=>[5,6]},
                  [[1,2],[3,4],[5,6]].build_hash(:last))
 
     assert_equal({1=>1, 2=>2, 3=>3},
