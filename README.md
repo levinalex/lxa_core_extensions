@@ -16,6 +16,10 @@ simple core extensions for ruby:
     [[1,2],[3,4],[5,6]].build_hash        #=> {1=>2, 3=>4, 5=>6}
     [[1,2],[3,4],[5,6]].build_hash(:last) #=> {2=>[1,2], 4=>[3,4], 6=>[5,6]}
 
+### Enumerable#tally
+
+    [4,4,4,4,"3","3","3","one"].tally => [[4,4], [3,"3"], [1,"one"]]
+
 ### Hash#compact
 
     { 4=>35, 9=>nil, 10=>false }.compact   #=> {4=>35, 10=>false}
